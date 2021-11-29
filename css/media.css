@@ -1,0 +1,493 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  .container{
+    padding-right:12px !important;
+    padding-left:12px !important;
+   }
+  .my_logo img {
+    width: 135px;
+  }
+  .white .black-logo{
+    width:135;
+  }
+  .navbar{
+    transition: .4s ease-in-out;
+  }
+  .white .navbar{
+    padding:4px 0 !important;
+  }
+
+ /* header area media css start */
+ .hero-banner {
+	padding-top: 140px;
+	padding-bottom:80px;
+}
+  .rahat-info h1 {
+    margin-bottom: -2px !important;
+    font-size: 27px;
+}
+  .rahat-info h3 {
+    font-size:25px;
+  }
+  .rahat-info h3 span{
+      font-size:23px;
+  }
+  .wrapper .icon {
+    margin: 15px 5px;
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+  .btn {
+    font-size: 15px;
+    line-height:30px;
+    max-width: 140px;
+  }
+  .effect01:hover span{
+    letter-spacing: 0.7px;
+  }
+ 
+  /* ==============header area media css end================= */
+  /* ===============about me info media css================== */
+  .about-me{
+      padding-bottom:40px !important;
+  }
+  .about-me, .my-service-sec, .my-resumes, .my-skills, .my-portfolio, .some-facts, .client-testimonial, .contact-info {
+      padding: 40px 0px;
+  }
+  .main-title {
+      margin-bottom:0px;
+  }
+  .main-title h2 {
+      font-size: 26px;
+  }
+  .title-bg-big .bg-big {
+    left: 50%;
+    top: 6%;
+    text-align: center;
+    font-size: 34px !important;
+  }
+  .main-title h2::after {
+     display: none;
+  }
+  .main-title h2::before {
+      display: none;
+  }
+  .sm-hide{
+      display: none;
+  }
+  .sm-about-mt{
+    margin-top: 20px !important;
+  }
+  .about-info{
+      margin-top: 25px;
+  }
+  .p-info {
+      margin-top: 15px;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+  }
+  .about-info ul li span {
+      font-size: 15px;
+  }
+  .about-info ul li span label {
+    font-size: 14px;
+    width: 58px;
+    margin-right: 20px;
+  }
+  .about-me .about-image {
+    position: relative;
+    margin-right: 23px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .about-links {
+    margin-top:16px;
+  }
+  .about-me .about-info h3 {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+  }
+
+  /* my services=============== */
+  .service {
+    min-height: 250px;
+    margin-top: 20px;
+    padding: 30px 12px 45px 12px;
+  }
+  .service h4 {
+    font-size: 24px;
+  }
+  .service h4::before {
+    display: none;
+  }
+  .service h4::after{
+    display: none;
+  }
+/*===========My Resume ============*/
+  .my-resumes {
+      padding-top: 50px;
+      padding-bottom:0px !important;
+      
+  }
+  .timeline ul li .timeline-content {
+      margin: 12px 0;
+  }
+  .timeline {
+      margin-top: 40px;
+  }
+  .timeline:before {
+      top: -36px;
+  }
+  .timeline ul li {
+      margin-bottom: 48px;
+  }
+  .timeline ul li:before {
+      top: -37px;
+  }
+  .timeline ul li:nth-child(even) .timeline-content,
+  .timeline ul li:nth-child(odd) .timeline-content {
+      width: 100%;
+      float: none;
+  }
+  
+  .timeline ul li:nth-child(even) .timeline-content:before,
+  .timeline ul li:nth-child(odd) .timeline-content:before {
+      top: -19px;
+      border-color: transparent transparent #fe3342 transparent;
+  }
+  .timeline ul li:nth-child(even) .timeline-content:before {
+      left: 50%;
+      margin-left: -12px;
+  }
+  
+  .timeline ul li:nth-child(odd) .timeline-content:before {
+      right: 50%;
+      margin-right: -12px;
+  }
+  .sm-pb-none{
+      padding-bottom: 0 !important;
+  }
+/*================ Portfolio media css styart============= */
+#portfolio .portfolio-hover {
+  top:11%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#portfolio .portfolio-nav {
+  margin:32px 0 30px;
+}
+#portfolio .portfolio-nav ul li {
+  margin-bottom: 17px;
+  margin-right: 6px;
+}
+#portfolio .portfolio-hover p{
+  font-size: 15px;
+}
+#portfolio .portfolio-hover .button a {
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+}
+#portfolio .portfolio-hover h4 {
+  margin: 5px 0 6px;
+}
+
+ /* ==============Some fact================ */
+  .fact-item {
+      margin-top:70px;
+ }
+  .fact-item .fact-icon:after {
+        display: none;
+ }
+  .one{
+      margin-top: 0 !important;
+ }
+ /* =============Testimonial media css=============== */
+ .testimonial-item {
+	margin:6px !important;
+	padding: 30px 10px;
+	margin-left:0px;
+}
+  .testimonial-item .description p {
+      font-size: 15px;
+ }
+  .testimonial-item .description::after {
+      bottom: 45%;
+      left: 14px;
+ }
+ .contact-form {
+  padding: 0;
+}
+  .contact-box .title-box .icon-box::after {
+      display: none;
+ }
+ .footerlogo p {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+     
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .container{
+    padding-right:5px !important;
+    padding-left:5px !important;
+   }
+  /* header area media css start */
+  .hero-banner {
+    padding-top: 220px;
+    padding-bottom: 103px;
+  }
+  .rahat-info h1 {
+    font-size: 47px;
+  }
+  .rahat-info h3 {
+    font-size: 30px;
+  }
+  .rahat-info h3 span{
+    font-size:28px;
+  }
+
+  /*============== header area media css end================= */
+  /* ===============about me info media css================= */
+  .about-me, .my-service-sec, .my-resumes, .my-skills, .my-portfolio, .some-facts, .client-testimonial, .contact-info {
+    padding: 50px 0px;
+}
+  .about-info{
+    margin-top: 25px;
+  }
+  .title-bg-big .bg-big {
+    left:50%;
+    top: 3%;
+    font-size:47px !important;    
+  }
+  .about-me .about-info h3 {
+    font-size: 27px;
+  }
+ /* my services================== */
+ .service {
+	padding: 40px 66px;
+  min-height: 320px;
+
+}
+  .fact-item {
+    margin-top:70px;
+  }
+  .fact-item .fact-icon:after {
+    display: none;
+  }
+  .one, .two{
+     margin-top: 0 !important;
+  }
+  /*================My Resume ====================*/
+  .my-resumes {
+    padding-top: 50px
+  }
+  .timeline ul li .timeline-content {
+    margin: 12px 0;
+  }
+  .timeline {
+     margin-top: 40px;
+  }  
+  .timeline:before {
+     top: -36px;
+  }
+  .timeline ul li {
+     margin-bottom: 48px;
+  }
+  .timeline ul li:before {
+    top: -37px;
+  } 
+  .timeline ul li:nth-child(even) .timeline-content,
+  .timeline ul li:nth-child(odd) .timeline-content {
+    width: 100%;
+    float: none;
+  }
+    
+  .timeline ul li:nth-child(even) .timeline-content:before,
+  .timeline ul li:nth-child(odd) .timeline-content:before {
+    top: -19px;
+    border-color: transparent transparent #fe3342 transparent;
+  }
+  .timeline ul li:nth-child(even) .timeline-content:before {
+    left: 50%;
+    margin-left: -12px;
+  } 
+  .timeline ul li:nth-child(odd) .timeline-content:before {
+    right: 50%;
+    margin-right: -12px;
+  }
+  .contact-box .title-box .icon-box::after {
+    display: none;
+  }
+  #portfolio .portfolio-nav {
+    margin: 40px 0 16px;
+  }
+  #portfolio .portfolio-nav ul li {
+    margin-bottom: 30px;
+  }
+  #portfolio .portfolio-hover {
+    top:8%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #portfolio .portfolio-hover p{
+    font-size: 14px;
+  }
+  #portfolio .portfolio-hover .button a {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+  #portfolio .portfolio-hover h4 {
+    margin: 5px 0 6px;
+  }
+    
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+.container{
+    padding-right:10px !important;
+    padding-left:10px !important;
+   }
+.about-me, .my-service-sec, .my-resumes, .my-skills, .my-portfolio, .some-facts, .client-testimonial, .contact-info {
+    padding: 60px 0px;
+}
+.some-facts{
+  padding-top: 0 !important;
+}
+  .about-me .about-image {
+    margin-right: 28px;
+    margin-left: 28px;
+  }
+  .about-info p {
+    font-size: 15px;
+  }
+ 
+  /* services media css start */
+  .service {
+    min-height: 310px;
+    padding: 25px 25px;
+  
+}
+#portfolio .portfolio-hover {
+	top:16%;
+}
+#portfolio .portfolio-nav ul li {
+	margin-right: 10px;
+	padding:8px 10px;
+
+}
+
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .about-me .about-info h3 {
+    font-size:27px;
+  }
+  .service {
+    min-height: 300px;
+    margin-top: 26px;
+    padding: 30px 12px;
+  }
+  .service h4{
+    font-size: 25px;
+  }
+  .service h4::before {
+    display: none;
+  }
+  .service h4::after{
+    display: none;
+  }
+  .container{
+    padding-right:18px !important;
+    padding-left:18px !important;
+   }
+
+
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+/*================ about media css start================ */
+.main-title {
+    margin-bottom: 40px;
+  }
+  
+.about-me .about-info h3 {
+    margin-bottom: 15px !important;
+    font-size:31px;
+
+  }
+.about-info h3:before {
+    top: 100%;
+  }
+.about-me .about-info h3 {
+	margin-bottom: 30px;
+  }
+  .about-info p {
+    margin-bottom: 18px;
+  }
+
+/* ===============about media css end============== */
+/* ===============service media css start============== */
+.service {
+	padding: 30px 26px;
+	min-height: 300px;
+}
+/* ===================service media css end ======================*/
+/*====================== portfolio media css start================ */
+#portfolio .portfolio-hover {
+	top:16%;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+/* ===================portfolio media css end================= */
+
+}
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+/* ====================about media css start===================== */
+.main-title {
+    margin-bottom: 40px;
+  } 
+.about-me .about-info h3 {
+    font-size:36px;
+  } 
+.about-info h3:before {
+    top: 100%;
+  }
+.about-me .about-info h3 {
+	margin-bottom: 30px;
+  }
+.about-info p {
+	margin-bottom:30px;
+}
+.about-info ul li span label{
+  width:75px;
+}
+
+/*================== about media css end================== */ 
+/* ==================service media css start============== */
+.service {
+	padding: 50px 22px;
+  min-height: 300px;
+}
+/* ==============service media css end ==================*/
+/*================ portfolio media css start================ */
+#portfolio .portfolio-hover {
+	top:23%;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+/*================= portfolio media css end ================*/
+
+}
